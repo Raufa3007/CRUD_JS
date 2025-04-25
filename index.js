@@ -1,7 +1,7 @@
 const express= require('express');
 const mongoose = require('mongoose');
 const Product=require("./models/productsmodel")
-const router=require("./Routes/products_rotes")
+const router=require("./Routes/products_routes")
 const dotenv=require("dotenv")
 const app=express();
 dotenv.config();
